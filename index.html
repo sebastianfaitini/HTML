@@ -3,81 +3,131 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Mi Primer Sitio Web</title>
     </head>
 
     <body>
         
         <header>
-            <h1> Este es titulo principal de mi pag Web </h1>  
+            <div>
 
-            <span>HOME</span>
-            <span>NOTICIAS</span>
-            <span>CLIMA</span>
+                <h1 id="principal">
+                    Este es titulo principal de mi pag Web
+                    
+                </h1> 
+            </div>
+            <div class="subtitulos">
 
-            <img src="./drinks.jpg" />
+                
+                <h2 class="sub">HOME</h2>
+                <h2 class="sub">NOVEDADES</h2>
+                <h2 class="sub">RECETAS</h2>
+                
+            </div>
+            <div class="logo"> 
+
+                <img src="Logo-Palabra-Lemon.png" />
+
+            </div>
+
         </header>
+
 
         <hr />
                
         <main>
-            <section>
-                <h2>Este es la seccion de Noticias </h2>
+            <div class="secciones">
 
-                <article>
+                <section>
+                    <h2>Este es la seccion de Recetas </h2>
+                    
+                    <article>
+                        
+                        <h3>Esta es la primer receta</h3>
+                        <div>
+                            <p>Esta Noticia es muy Importante .</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi totam consectetur in 
+                                necessitatibus ducimus, neque ipsum quo fuga repellendus natus excepturi cumque ex quidem, corporis
+                                amet eveniet praesentium? Minima.</p>
+                            </div>                   
+                            
+                        </article>
+                        
+                        
+                        <hr />
+                        
+                        
+                        <article>
+                            
+                            <h3>Esta es la noticia Nº 2</h3>
+                            <P>Este es un listado de cosas importantes para esta noticia</P>
+                            <ol>
+                                <li>este es el item</li>
+                                <li>este es el item</li>
+                                <li>este es el item</li>
+                            </ol>
+                            
+                        </article>
+                        
+                        <hr />
+                        <div class="ultart"> 
+
+                            <article>
+                                
+                                <h3>Esta es la noticia Nº 3</h3>
+                                <p>Esta es una lista sin orden</p>
+                                <ul>
+                                    <li>este es un elemento</li>
+                                    <li>este es un nuevo elemento</li>
+                                    <li>este es otro elemento</li>
+                                    
+                                </ul>
+                                
+                            </article>
+                            
+                        </div>
                 
-                <h3>Esta es la noticia Nº 1</h3>
-                <div>
-                    <p>Esta Noticia es muy Importante .</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi totam consectetur in 
-                        necessitatibus ducimus, neque ipsum quo fuga repellendus natus excepturi cumque ex quidem, corporis
-                         amet eveniet praesentium? Minima.</p>
-                </div>                   
-            
-                </article>
-
-
-            <hr />
-            
-
-                <article>
-
-                <h3>Esta es la noticia Nº 2</h3>
-                <P>Este es un listado de cosas importantes para esta noticia</P>
-            <ol>
-                <li>este es el item</li>
-                <li>este es el item</li>
-                <li>este es el item</li>
-            </ol>
-                
-                  </article>
-
-            <hr />
-                <article>
-
-                <h3>Esta es la noticia Nº 3</h3>
-                <p>Esta es una lista sin orden</p>
-            <ul>
-                <li>este es un elemento</li>
-                <li>este es un nuevo elemento</li>
-                <li>este es otro elemento</li>
-
-            </ul>
-
-                </article>
-
-            <hr />
-            </section>
+                    </section>
+                </div>
         </main>
     
 
-        <footer>
-            <P>
-                este es el footer de mi pagina. Ahora voy a poner unos enlaces.
-            </P>
-             
-            <a href="./contacto.html">formulario de contacto</a>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section about">
+                        <h2 class="logo-text">Tu Empresa</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tellus nec diam fringilla, ac interdum sapien venenatis.
+                        </p>
+                        <div class="contact">
+                            <span><i class="fas fa-phone"></i> 123-456-789</span>
+                            <span><i class="fas fa-envelope"></i> info@tuempresa.com</span>
+                        </div>
+                        <div class="socials">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-section links">
+                        <h2>Enlaces rápidos</h2>
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 Tu Empresa | Diseñado por Ti
+            </div>
         </footer>
+        
                    
               
     </body>

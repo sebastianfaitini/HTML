@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove default margin */
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, blockquote, fieldset, legend {
+    margin: 0;
+  }
+  
+  /* Remove default padding */
+  ul, ol {
+    padding: 0;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove anchor text decoration */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Remove table border */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Reset images */
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+  
+  /* Reset form elements */
+  button, input, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  /* Remove default button styles */
+  button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  /* Remove default input styles */
+  input[type="checkbox"],
+  input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  /* Remove outline on focused elements */
+  :focus {
+    outline: none;
+  }
+  

@@ -1,0 +1,70 @@
+body {
+background-color: rgb(83, 73, 70);
+}
+.title {
+    font-size: 2em;
+    color: aquamarine;     
+}
+.titleh2 {
+    font-size: 4em;
+}
+
+.des {
+    font-size: 2em;
+    display: flex;
+    margin-left: 5px;
+    
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+    
+}
+
+.cards:hover{
+    background-color: aqua;
+    transition: 2s;
+    
+}
+
+#principal {
+    font-size: 3em; color: beige;
+}
+
+#titulos {
+    
+    width: 75vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-container{
+
+width: 85vw;
+margin: auto;
+margin-top: 1.5em;
+border: 4px solid rgb(181, 88, 88);
+border-radius: 10px;
+padding: 2%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+
+}
